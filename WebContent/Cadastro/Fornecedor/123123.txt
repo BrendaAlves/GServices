@@ -1,0 +1,11 @@
+Nome=123123
+E-mail=123
+Telefone=123
+CNPJ=123
+Responsavel=123
+CEP=null
+Endereço=null, null
+Bairro=null
+Complemento=null
+Cidade=null
+Estado=null

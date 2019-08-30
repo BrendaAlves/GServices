@@ -1,0 +1,11 @@
+Nome=123
+E-mail=123
+Telefone=123
+CNPJ=123
+Responsavel=123
+CEP=123
+Endereço=123, 123
+Bairro=123
+Complemento=123
+Cidade=123
+Estado=PI

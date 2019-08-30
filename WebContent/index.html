@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta content="" name="description">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="" name="keywords">
+
+<title>Gaia Services</title>
+
+<!-- #Favicons -->
+<link href="imagem/favicon.png" rel="icon">
+<link href="imagem/apple-touch-icon.png" rel="apple-touch-icon">
+
+<!-- #Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i/Poppins:300,400,500,700" >
+
+<!-- #Bootstrap CSS File -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+<!-- #Libraries CSS Files -->
+<link rel="stylesheet" href="fonte/css/font-awesome.css">
+<link rel="stylesheet" href="fonte/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="animate/animate.min.css" >
+<link rel="stylesheet" href="animate/animate.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/v4-shims.css">
+
+
+<!-- #Main Stylesheet File -->
+<link rel="stylesheet" href="design.css">
+
+<!-- #JavaScript Libraries -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/facilita.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/counterup.min.js"></script>
+<script src="js/hoverIntent.js"></script>
+<script src="js/superfish.min.js"></script>
+<script src="js/Script-exibe.js"></script>
+<script src="js/Script-menu.js"></script>
+
+<!-- #Valida Campos -->
+<script src="js/validaAntes.js"></script>
+<script src="js/valida_cpf_cnpj.js"></script>
+
+<!-- #Contact Form JavaScript File -->
+<script src="js/faleconosco.js"></script>
+
+<!-- #Template Main Javascript File -->
+<script src="js/principal.js"></script>
+
+</head>
+
+<body>
+	<header id="header">
+		<div class="container">
+			<div class="logo pull-left">
+				<a href="#hero"><img src="imagem/logo-trans.png" width="70px" height="40px"></a>
+			</div>
+
+			<nav id="nav-menu-container">
+				<ul class="nav-menu">
+					<li class="menu-active"><a href="">Início</a></li>
+
+					<li style="color: white;"><a data-toggle="modal"
+						data-target="#modal_Login" href="">Login</a></li>
+
+					<li class="menu-has-children"><a href="">Cadastrar</a>
+						<ul>
+							<li style="color: white;"><a data-toggle="modal"
+								data-target="#modal_CadFornecedor" href="">Fornecedor</a></li>
+							<li style="color: white;"><a data-toggle="modal"
+								data-target="#modal_CadFuncionario" href="">Funcionário</a></li>
+							<li style="color: white;"><a data-toggle="modal"
+								data-target="#modal_CadProduto" href="">Produto</a></li>
+							<li style="color: white;"><a data-toggle="modal"
+								data-target="#modal_CadServico" href="">Serviço</a></li>
+						</ul></li>
+
+					<li class="menu-has-children"><a href="">Relatórios</a>
+						<ul>
+							<li class="menu-has-children"><a href="">Vendas</a>
+								<ul>
+									<li><a href="modal_RelFornecedor">Fornecedor</a></li>
+									<li><a href="modal_RelFuncionario">Funcionário</a></li>
+									<li><a href="modal_RelProduto">Produto</a></li>
+									<li><a href="modal_RelServico">Serviço</a></li>
+								</ul></li>
+							<li class="menu-has-children"><a href="">Atendimento</a>
+								<ul>
+									<li><a href="">Fornecedor</a></li>
+									<li><a href="">Funcionário</a></li>
+									<li><a href="">Produto</a></li>
+									<li><a href="">Serviço</a></li>
+								</ul></li>
+							<li class="menu-has-children"><a href="">Produtos</a>
+								<ul>
+									<li><a href="">Fornecedor</a></li>
+									<li><a href="">Funcionário</a></li>
+									<li><a href="">Produto</a></li>
+									<li><a href="">Serviço</a></li>
+								</ul></li>
+						</ul></li>
+					<li><a href="#login">Meus dados</a></li>
+					<li><a href="#about">Quem somos</a></li>
+					<li><a href="#contact">Fale conosco</a></li>
+				</ul>
+			</nav>
+			<!-- #nav-menu-container -->
+		</div>
+	</header>
+	<!-- #header -->
+
+	<!--==========================
+    Hero Section
+  ============================-->
+	<section id="hero">
+		<div class="hero-container">
+			<h1>Bem Vind@ ao Gaia Services</h1>
+			<h2>Faça seu cadastro e tenha acesso a serviços disponibilizados
+				por nossos parceiros!</h2>
+			<h2>Agende seu horário de maneira fácil e prática!</h2>
+			<a href="" class="btn-get-started" data-toggle="modal" data-target="#modal_CadCliente">Cadastrar</a>
+		</div>
+	</section>
+	<!-- #hero -->
+
+	<main id="principal"> <!--==========================
+    Cadastrar salão
+    ============================-->
+	<section id="call-to-action">
+		<div class="container wow fadeIn">
+			<div class="row">
+				<div class="col-lg-9 text-center text-lg-left">
+					<h3 class="cta-title">Seja nosso parceiro</h3>
+					<p class="cta-text">
+						Aqui nenhum salão é pequeno, porque o Gaia
+						Services potencializa todo negócio, oferecendo as melhores
+						ferramentas de gestão e novos canais para gerar ainda mais
+						pedidos. Somos o parceiro ideal para seu o negócio!
+					</p>
+				</div>
+				<div class="col-lg-3 cta-btn-container text-center">
+					<a href="" class="cta-btn align-middle" data-toggle="modal"
+						data-target="#modal_CadSalao">Cadastre seu salão</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- #call-to-action --> <!--==========================
+      Login Section
+    ============================--> <!-- MODAL CADASTRE SEU E-MAIL -->
+	<section class="login">
+		<div id="modal_9dade" class="modal fade" tabindex="-1"
+			role="dialog" aria-labelledby="modal_9dade-center" aria-hidden="true">
+			<button type="button" class="close" data-dismiss="modal"
+				aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<form action="jsp/Cad_9dade.jsp" method="get">
+						<div id="modal_9dade-center" class="modal-body">
+							<div class="logo pull-left self-signin-form icon-box wow fadeInUp" style="padding-top: 3%; padding-bottom: 3%;" data-wow-delay="0.8s">
+								<img src="imagem/logo-trans.png" width="70px" height="40px">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 3%;">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								<h4 class="title" style="padding-left: 19%;">
+									Cadastre seu e-mail para receber nossas novidades!
+								</h4>
+							</div>
+							<br>
+							<br>
+							<br>
+							<div style="padding-top: 15%; padding-bottom: 3%;"
+								class="icon-box wow fadeInUp">
+								<input required type="text" autocomplete="off"
+									class="form-control" placeholder="Informe seu Nome *"
+									name="cad_nome_9dade">
+							</div>
+							<div class="field-row icon-box wow fadeInUp">
+								<input required type="text" autocomplete="off"
+									class="form-control" placeholder="Informe seu E-mail *"
+									name="cad_email_9dade" id="email_9dade"
+									onblur="validarEmail(f1.email)"> <span
+									id="emailResponse"></span>
+							</div>
+							<div class="field-row icon-box wow fadeInUp"
+								style="margin-left: 35%;" data-wow-delay="0.2s">
+								<input type="submit" class="btn-get-started" value="Salvar">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- #9dades --> <!-- MODAL LOGIN -->
+	<section class="login">
+		<div id="modal_Login" class="modal fade" tabindex="-1" role="dialog"
+			aria-labelledby="modal_login-center" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content col-lg-10">
+					<form action="jsp/Login.jsp" method="get">
+						<div id="modal_login-center" class="modal-body">
+							<div class="logo pull-left self-signin-form icon-box wow fadeInUp" style="padding-top: 3%; padding-bottom: 3%;" data-wow-delay="0.8s">
+								<img src="imagem/logo-trans.png" width="70px" height="40px">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 3%;">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<br>
+							<br>
+							<br>
+							<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.2s" style="padding-top: 10%;">
+								<input required type="text" autocomplete="off" class="col-lg-12 form-control" maxlength="18" onBlur="validar(this);" placeholder="CPF / CNPJ *" name="login_usuario">
+							</div>
+							<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.2s">
+								<!-- <h6 id=""></h6> -->
+								<input required type="password" autocomplete="off" class="col-lg-12 form-control" placeholder="Senha *" name="login_senha">
+							</div>
+							<div class="field-row icon-box wow fadeInUp" style="margin-left: 27%;" data-wow-delay="0.6s">
+								<input type="submit" class="btn-get-started" value="Acessar">
+							</div>
+							<div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+								<a href="" data-toggle="modal" data-target="#modal_EsqueciSenha" class="btnForgetPwd" data-dismiss="modal" aria-label="Close">
+									<u>Esqueceu a senha?</u>
+								</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- #Login --> <!-- MODAL ESQUECI SENHA -->
+	<section class="login">
+		<div id="modal_EsqueciSenha" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal_esquecisenha-center" aria-hidden="true">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<form action="jsp/EsqueciSenha.jsp" method="get">
+						<div class="modal-body">
+							<div class=" logo pull-left self-signin-form icon-box wow fadeInUp" style="padding-top: 3%; padding-bottom: 3%;" data-wow-delay="0.8s">
+								<img src="imagem/logo-trans.png" width="70px" height="40px">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 3%;">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								<h4 class="title" style="padding-left: 19%;">
+									Confirme o CPF/CNPJ e E-mail cadastrados:
+								</h4>
+							</div>
+							<br>
+							<br>
+							<br>
+							<div style="padding-top: 15%; padding-bottom: 3%;" class="icon-box wow fadeInUp">
+								<input required type="text" autocomplete="off" class="form-control" placeholder="Informe o CPF/CNPJ *" name="valida_cpf_cnpj">
+							</div>
+							<div class="field-row icon-box wow fadeInUp">
+								<input required type="text" autocomplete="off" class="form-control" placeholder="Informe o E-mail *" name="valida_email" id="email_login" onblur="validarEmail(f1.email)">
+								<span id="emailResponse"></span>
+							</div>
+							<div class="field-row icon-box wow fadeInUp" style="margin-left: 28%;" data-wow-delay="0.2s">
+								<input type="submit" class="btn-get-started" data-toggle="modal"
+									data-target="#modal_AlteraSenha" value="Confirmar">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- #Esqueci minha senha --> <!-- MODAL ALTERA SENHA -->
+	<section class="login">
+		<div id="modal_AlteraSenha" class="modal fade" tabindex="-1"
+			role="dialog" aria-labelledby="modal_AlteraSenha-center" aria-hidden="true">
+			<button type="button" class="close" data-dismiss="modal"
+				aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<form action="jsp/AlteraSenha.jsp" method="get">
+						<div id="modal_AlteraSenha-center" class="modal-body">
+							<div class=" logo pull-left self-signin-form icon-box wow fadeInUp"
+								style="padding-top: 3%; padding-bottom: 3%;"
+								data-wow-delay="0.8s">
+								<img src="imagem/logo-trans.png" width="70px" height="40px">
+								<button type="button" class="close" data-dismiss="modal"
+									aria-label="Close" style="padding-right: 3%;">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								<h4 class="title" style="padding-left: 19%;">
+									Dados confirmados, informe nova senha.
+								</h4>
+							</div>
+							<br>
+							<br>
+							<br>
+							<div style="padding-top: 15%; padding-bottom: 3%;"
+								class="icon-box wow fadeInUp">
+								<input required type="password" autocomplete="off"
+									class="form-control" placeholder="Nova senha de acesso *"
+									name="altera_senha">
+							</div>
+							<div class="field-row icon-box wow fadeInUp">
+								<input required type="password" autocomplete="off"
+									class="form-control"
+									placeholder="Confirme a nova senha de acesso *"
+									name="altera_senha_confir">
+							</div>
+							<div class="field-row icon-box wow fadeInUp"
+								style="margin-left: 35%;" data-wow-delay="0.2s">
+								<input type="submit" class="btn-get-started" value="Salvar">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- #Altera senha --> <!-- MODAL CADASTRO CLIENTE -->
+	<section class="login">
+		<div id="modal_CadCliente" class="modal fade" tabindex="-1"
+			role="dialog" aria-labelledby="modal_CadCliente-center" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content col-lg-12">
+					<form action="jsp/Cad_Cliente.jsp" method="get">
+						<div id="modal_CadCliente-center" class="modal-body">
+							<div class="logo pull-left self-signin-form icon-box wow fadeInUp"
+								data-wow-delay="0.8s">
+								<img src="imagem/logo-trans.png" width="70px" height="40px">
+								<button type="button" class="close" data-dismiss="modal"
+									aria-label="Close" style="padding-right: 3%;">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								<h4 class="title" style="padding-left: 24%;">
+									Faça seu Cadastro, <br> Agende seu horário!
+								</h4>
+							</div>
+							<br>
+							<div class="self-signin-form icon-box wow fadeInUp"
+								style="padding-top: 34%; padding-bottom: 5%;"
+								data-wow-delay="0.8s">
+								<div class="field-row icon-box wow fadeInUp"
+									data-wow-delay="0.2s">
+									<input required type="text" class="form-control"
+										placeholder="Seu nome *" name="cad_nome_cliente">
+								</div>
+								<div class="field-row icon-box wow fadeInUp"
+									data-wow-delay="0.4s">
+									<input id="emailResponse" required type="text" class="form-control"
+										placeholder="Seu e-mail *" name="cad_email_cliente">
+								</div>
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.8s">
+										<input required type="text" class="form-control" placeholder="Seu CPF *" name="cad_cpf_cliente"
+										onkeyup="cpfCheck(this)" maxlength="14" onkeydown="javascript:fMasc(this,mCPF);"> 
+										<span id="cpfResponse"></span> 
+									&emsp; 
+										<input required type="text" class="form-control" placeholder="Seu telefone *" name="cad_telefone_cliente" 
+										id="telefone_Cli" maxlength="15" onkeydown="javascript:mascara(this,mtel);">
+								</div>
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="1.0s">
+									<input required type="password" class="form-control" placeholder="Sua senha *" name="cad_senha_cliente">
+								&emsp; 
+									<input required type="password" class="form-control" placeholder="Confirme sua senha *" name="cad_senhaConf_cliente">
+								</div>
+								<div class=" cta-btn-container text-center field-row icon-box wow fadeInUp" data-wow-delay="1.4s">
+									<input type="submit" class="btn-get-started" value="Cadastrar">
+								</div>
+								<div class="icon-box wow fadeInUp" data-wow-delay="1.4s">
+									<a href="" data-toggle="modal" data-target="#modal_Login" class="btnForgetPwd" data-dismiss="modal" aria-label="Close">
+										<u>Já possui cadastro?</u>
+									</a>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- #Cadastro Salão --> <!-- MODAL CADASTRO SALÃO -->
+	<section class="login">
+		<div id="modal_CadSalao" class="modal fade" tabindex="-1"
+			role="dialog" aria-labelledby="modal_CadSalao-center" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content col-lg-12">
+					<form action="jsp/Cad_Salao.jsp" method="get">
+						<div id="modal_CadSalao-center" class="modal-body">
+							<div class="logo pull-left self-signin-form icon-box wow fadeInUp"
+								style="padding-top: 3%; padding-bottom: 3%;"
+								data-wow-delay="0.8s">
+								<img src="imagem/logo-trans.png" width="70px" height="40px">
+								<button type="button" class="close" data-dismiss="modal"
+									aria-label="Close" style="padding-right: 3%;">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								<h4 class="title" style="padding-left: 24%;">
+									Seja nosso Parceiro, <br> Faça seu Cadastro!
+								</h4>
+							</div>
+							<br>
+							<div class="self-signin-form icon-box wow fadeInUp" style="padding-top: 28%; padding-bottom: 5%;" data-wow-delay="0.8s">
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.2s">
+									<input required type="text" class="form-control" placeholder="Nome do Salão* " name="cad_nome_salao">
+								</div>
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.2s">
+									<input required type="text" class="form-control" placeholder="Razão Social *" name="cad_razao_salao">
+								</div>
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.4s">
+									<input required type="text" class="form-control" placeholder="E-mail para contato *" name="cad_email_salao">
+								&emsp; 
+									<input required type="text" class="form-control" placeholder="CNPJ *" name="cad_cnpj_salao" onkeyup="cnpjCheck(this)" maxlength="14" onkeydown="javascript:fMasc(this,mCNPJ);"> 
+									<span id="cnpjResponse"></span> 
+								</div>
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.8s">
+									<input required type="text" class="form-control" placeholder="Responsável do Salão* " name="cad_responsavel_salao">
+								&emsp; 
+									<input required type="text" class="form-control" placeholder="Telefone para contato *" name="cad_telefone_salao" id="telefone_Sal" maxlength="15">
+								</div>
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="1.0s">
+									<input required type="password" class="form-control" placeholder="Senha *" name="cad_senha_salao"> 
+								&emsp; 
+									<input required type="password" class="form-control" placeholder="Confirmar senha *" name="cad_senhaConf_salao">
+								</div>
+								<div class=" cta-btn-container text-center field-row icon-box wow fadeInUp" data-wow-delay="1.4s">
+									<input type="submit" class="btn-get-started" value="Salvar">
+								</div>
+								<div class="icon-box wow fadeInUp" data-wow-delay="1.4s">
+									<a href="" data-toggle="modal" data-target="#modal_Login" class="btnForgetPwd" data-dismiss="modal" aria-label="Close">
+										<u>Já possui cadastro?</u>
+									</a>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- #Cadastro Fornecedor --> <!-- MODAL CADASTRO FORNECEDOR -->
+	<section class="login">
+		<div id="modal_CadFornecedor" class="modal fade" tabindex="-1"
+			role="dialog" aria-labelledby="modal_CadFornecedor-center" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content col-lg-12">
+					<form action="jsp/Cad_Fornecedor.jsp" method="get">
+						<div id="modal_CadFornecedor-center" class="modal-body">
+							<div class="logo pull-left self-signin-form icon-box wow fadeInUp" style="padding-top: 3%; padding-bottom: 3%;" data-wow-delay="0.8s">
+								<img src="imagem/logo-trans.png" width="70px" height="40px">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 3%;">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								<h4 class="title" style="padding-left: 24%;">
+									Cadastro de Fornecedor
+								</h4>
+							</div>
+							<br>
+							<div class="self-signin-form icon-box wow fadeInUp" style="padding-top: 25%; padding-bottom: 5%;" data-wow-delay="0.8s">
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.2s">
+									<input required type="text" class="form-control" placeholder="Razão Social *" name="cad_RazaoSocialFornec">
+								</div>
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.2s">
+									<input type="text" class="form-control" placeholder="Nome Fantasia " name="cad_NomeFantasiaFornec">
+								</div>
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.2s">
+									<input required type="text" class="form-control" placeholder="E-mail para contato *" name="cad_EmailFornec">
+								</div>
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.2s">
+									<input required type="text" class="form-control" placeholder="Endereço *" name="cad_EnderecoFornec">
+								</div>
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.4s">
+									<input required type="text" class="form-control" placeholder="CNPJ *" name="cad_cnpj" onkeyup="cnpjCheck(this)" maxlength="14" onkeydown="javascript:fMasc(this,mCNPJ);">
+										<span id="cnpjResponse"></span>
+								&emsp;  
+									<input required type="text" class="form-control" placeholder="Telefone do responsável" name="cad_telefone" id="telefone_Fornec" maxlength="15">
+								</div>
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.4s">
+									<input required type="text" class="form-control" placeholder="Responsável " name="cad_responsavel">
+								&emsp; 
+									<input required type="text" class="form-control" placeholder="Telefone do responsável" name="cad_telefone" id="telefone_Fornec" maxlength="15">
+								</div>
+							</div>
+							<div class=" cta-btn-container text-center field-row icon-box wow fadeInUp" data-wow-delay="0.6s">
+								<input type="submit" class="btn-get-started" value="Salvar">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- #Cadastro Produto --> <!-- MODAL CADASTRO PRODUTO -->
+	<section class="login">
+		<div id="modal_CadProduto" class="modal fade" tabindex="-1"
+			role="dialog" aria-labelledby="modal_CadProduto-center" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content col-lg-12">
+					<form action="jsp/Cad-Produto.jsp" method="get">
+						<div id="modal_CadProduto-center" class="modal-body">
+							<div class="logo pull-left self-signin-form icon-box wow fadeInUp"
+								style="padding-top: 3%; padding-bottom: 3%;"
+								data-wow-delay="0.8s">
+								<img src="imagem/logo-trans.png" width="70px" height="40px">
+								<button type="button" class="close" data-dismiss="modal"
+									aria-label="Close" style="padding-right: 3%;">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								<h4 class="title" style="padding-left: 22%;">
+									Cadastro de Produtos
+								</h4>
+							</div>
+							<br>
+							<div class="self-signin-form icon-box wow fadeInUp" style="padding-top: 25%; padding-bottom: 5%;" data-wow-delay="0.8s">
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.2s">
+									<input required type="text" class="form-control" placeholder="Nome do Produto *" name="cad_Produto">
+								&emsp; 
+									<input required type="text" class="col-lg-3 form-control" placeholder="Marca *" name="cad_MarcaProduto">
+								</div>
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.2s">
+									<input type="text" class="form-control" placeholder="Descrição do Produto" name="cad_DescProduto">
+								&emsp; 
+									<input type="text" class="col-lg-3 form-control" placeholder="Tipo" name="cad_tipoProduto">
+								</div>
+								<br>
+								<br>
+								<h4 class="title" style="padding-left: 19%;">
+									Dados do Fornecedor
+								</h4>
+								<br>
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.4s">
+									<input type="text" class="form-control" placeholder="Fornecedor" name="cad_FornecProduto">
+								&ensp; 
+									 <input type="text" name="cad_cnpj_fornec" id="cnpj" placeholder="CNPJ *" onkeyup="FormataCnpj(this,event)" 
+									 	onblur="if(!validarCNPJ(this.value)){alert('CNPJ Informado é inválido'); this.value='';}" 
+									 	maxlength="18"  class="form-control input-md" ng-model="cadastro.cnpj" required>
+
+								</div>
+								 <div class="field-row icon-box wow fadeInUp" data-wow-delay="0.4s">
+									<input type="text" class="form-control" placeholder="Responsável" name="cad_FornecResponsavel"
+										id="telefone_Fornec"> 
+								&ensp; 
+									<input type="text" class="form-control" placeholder="Contato" name="cad_FornecteContato"
+										id="telefone_Fornec" maxlength="15">
+								</div>
+							</div>
+							<div
+								class=" cta-btn-container text-center field-row icon-box wow fadeInUp"
+								data-wow-delay="0.6s">
+								<input type="submit" class="btn-get-started" value="Salvar">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- #Cadastro Produto --> <!-- MODAL CADASTRO FUNCIONÁRIO -->
+	<section class="login">
+		<div id="modal_CadFuncionario" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal_modal_CadFuncionario-center" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content col-lg-12">
+					<form action="jsp/Cad-Funcionario.jsp" method="get">
+						<div id="modal_modal_CadFuncionario-center" class="modal-body">
+							<div class="logo pull-left self-signin-form icon-box wow fadeInUp" style="padding-top: 3%; padding-bottom: 3%;" data-wow-delay="0.8s">
+								<img src="imagem/logo-trans.png" width="70px" height="40px">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 3%;">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								<h4 class="title" style="padding-left: 22%;">
+									Cadastre seu funcionário
+								</h4>
+							</div>
+							<br>
+							<div class="self-signin-form icon-box wow fadeInUp" style="padding-top: 25%; padding-bottom: 5%;" data-wow-delay="0.8s">
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.2s">
+									<input required type="text" class="form-control" placeholder="Nome do funcionário *" name="cad_nomeFunc">
+								</div>
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.4s">
+									<input required type="text" class="form-control" placeholder="CPF *" name="cad_cpfFunc" onkeyup="cpfCheck(this)" maxlength="14" onkeydown="javascript:fMasc(this,mCPF);"> 
+										<span id="cpfResponse"></span> 
+								&emsp; 
+									<input required type="text" class="form-control" placeholder="Telefone para contato *" name="cad_telefoneFunc" id="telefone_Cli" maxlength="15">
+								</div>
+								<div class="field-row icon-box wow fadeInUp" data-wow-delay="0.2s">
+									<input type="text" class="form-control" placeholder="E-mail para contato *" name="cad_emailFunc">
+								</div>
+							</div>
+							<div class=" cta-btn-container text-center field-row icon-box wow fadeInUp" data-wow-delay="0.6s">
+								<input type="submit" class="btn-get-started" value="Salvar">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- #Cadastro Serviço --> <!-- MODAL CADASTRO SERVIÇO -->
+	<section class="login">
+		<div id="modal_CadServico" class="modal fade" tabindex="-1"
+			role="dialog" aria-labelledby="modal_CadServico-center" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content col-lg-12">
+					<form action="jsp/Cad-Servico.jsp" method="get">
+						<div id="modal_CadServico-center" class="modal-body">
+							<div class="logo pull-left self-signin-form icon-box wow fadeInUp"
+								style="padding-top: 3%; padding-bottom: 3%;"
+								data-wow-delay="0.8s">
+								<img src="imagem/logo-trans.png" width="70px" height="40px">
+								<button type="button" class="close" data-dismiss="modal"
+									aria-label="Close" style="padding-right: 3%;">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								<h4 class="title" style="padding-left: 22%;">
+									Cadastro de Serviços
+								</h4>
+							</div>
+							<br>
+							<div class="self-signin-form icon-box wow fadeInUp"
+								style="padding-top: 25%; padding-bottom: 5%;"
+								data-wow-delay="0.8s">
+								<div class="field-row icon-box wow fadeInUp"
+									data-wow-delay="0.2s">
+									<input required type="text" class="form-control"
+										placeholder="Nome do Produto *" name="cad_Produto">
+									&emsp; <input required type="text"
+										class="col-lg-3 form-control" placeholder="Marca *"
+										name="cad_MarcaProduto">
+								</div>
+								<div class="field-row icon-box wow fadeInUp"
+									data-wow-delay="0.2s">
+									<input type="text" class="form-control"
+										placeholder="Descrição do Produto" name="cad_DescProduto">
+									&emsp; <input type="text" class="col-lg-3 form-control"
+										placeholder="Tipo" name="cad_tipoProduto">
+								</div>
+								<br>
+								<br>
+								<h4 class="title" style="padding-left: 19%;">
+									Dados do Fornecedor
+								</h4>
+								<br>
+								<div class="field-row icon-box wow fadeInUp"
+									data-wow-delay="0.4s">
+									<input type="text" class="col-lg-4 form-control"
+										placeholder="Fornecedor" name="cad_FornecProduto">
+									&ensp; <input type="text" class="col-lg-4 form-control"
+										placeholder="Responsável" name="cad_FornecResponsavel"
+										id="telefone_Cli" maxlength="15"> &ensp; <input
+										type="text" class="col-lg-4 form-control"
+										placeholder="Contato" name="cad_FornecteContato"
+										id="telefone_Cli" maxlength="15">
+								</div>
+							</div>
+							<div
+								class=" cta-btn-container text-center field-row icon-box wow fadeInUp"
+								data-wow-delay="0.6s">
+								<input type="submit" class="btn-get-started" value="Salvar">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- #Cadastro Serviço --> <!--
+      Facts Section
+
+    <section id="facts">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">Facts</h3>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+        <div class="row counters">
+
+  				<div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">232</span>
+            <p>Clients</p>
+  				</div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">521</span>
+            <p>Projects</p>
+  				</div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1,463</span>
+            <p>Hours Of Support</p>
+  				</div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">15</span>
+            <p>Hard Workers</p>
+  				</div>
+
+  			</div>
+
+      </div>
+    </section>--> <!-- #facts --> <!--
+      Services Section
+
+    <section id="services">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">Services</h3>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
+              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-paper-plane"></i></a></div>
+              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
+              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-road"></i></a></div>
+              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-shopping-bag"></i></a></div>
+              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>--> <!-- #services --> <!--==========================
+      Algo Section
+    ============================-->
+	<section id="portfolio">
+		<div class="container wow fadeInUp">
+			<div class="section-header">
+				<h3 class="section-title">Separamos para você!</h3>
+				<p class="section-description">
+					Aqui destacamos algumas novidades para você! 
+					Separamos alguns produtos e serviços em promoção.<br>
+					Serviços com os próximos horários em aberto.<br>
+					E os queridinhos.<br>
+				</p>
+			</div>
+			<div class="row">
+
+				<div class="col-lg-12">
+					<ul id="portfolio-flters">
+						<li
+							data-filter=".filter-serv, .filter-card, .filter-logo, .filter-web"
+							class="filter-active">Todos os Serviços</li>
+						<li data-filter=".filter-serv">Tudo em Promoção</li>
+						<li data-filter=".filter-logo">Horário em aberto</li>
+						<li data-filter=".filter-card">Do seu lado</li>						
+						<li data-filter=".filter-web">Queridinhos</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row" id="portfolio-wrapper">
+				<div class="col-lg-3 col-md-6 portfolio-item filter-serv">
+					<a href=""> <img src="imagem/portfolio/serv.jpg" alt="">
+						<div class="details">
+							<h4>Serviços</h4>
+							<span>Em promoção</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6 portfolio-item filter-web">
+					<a href=""> <img src="imagem/portfolio/web2.jpg" alt="">
+						<div class="details">
+							<h4>Web 2</h4>
+							<span>Alored dono par</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6 portfolio-item filter-serv">
+					<a href=""> <img src="imagem/portfolio/serv1.png" alt="">
+						<div class="details">
+							<h4>Serviços 1</h4>
+							<span>Em promoção</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6 portfolio-item filter-card">
+					<a href=""> <img src="imagem/portfolio/card1.jpg" alt="">
+						<div class="details">
+							<h4>Card 1</h4>
+							<span>Alored dono par</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6 portfolio-item filter-card">
+					<a href=""> <img src="imagem/portfolio/card2.jpg" alt="">
+						<div class="details">
+							<h4>Card 2</h4>
+							<span>Alored dono par</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6 portfolio-item filter-web">
+					<a href=""> <img src="imagem/portfolio/web3.jpg" alt="">
+						<div class="details">
+							<h4>Web 3</h4>
+							<span>Alored dono par</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6 portfolio-item filter-card">
+					<a href=""> <img src="imagem/portfolio/card3.jpg" alt="">
+						<div class="details">
+							<h4>Card 3</h4>
+							<span>Alored dono par</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6 portfolio-item filter-serv">
+					<a href=""> <img src="imagem/portfolio/serv2.jpg" alt="">
+						<div class="details">
+							<h4>Serviços 2</h4>
+							<span>Em promoção</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+					<a href=""> <img src="imagem/portfolio/logo1.jpg" alt="">
+						<div class="details">
+							<h4>Logo 1</h4>
+							<span>Alored dono par</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+					<a href=""> <img src="imagem/portfolio/logo3.jpg" alt="">
+						<div class="details">
+							<h4>Logo 3</h4>
+							<span>Alored dono par</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6 portfolio-item filter-web">
+					<a href=""> <img src="imagem/portfolio/web1.jpg" alt="">
+						<div class="details">
+							<h4>Web 1</h4>
+							<span>Alored dono par</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+					<a href=""> <img src="imagem/portfolio/logo2.jpg" alt="">
+						<div class="details">
+							<h4>Logo 2</h4>
+							<span>Alored dono par</span>
+						</div>
+					</a>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+	<!-- #portfolio --> <!--==========================
+      Team Section
+    ============================-->
+	<section id="about">
+		<div class="container wow fadeInUp">
+			<div class="section-header">
+				<h3 class="section-title">Quem somos</h3>
+				<p class="section-description">
+					A equipe surgiu a partir de um trabalho final da faculdade a meio de inúmeros contratempos. <br> 
+					Éramos colegas de classe participando de outros grupos, no qual as circuntâncias nos uniu. <br>
+					Continuamos com a idéia firme na mente para este sistema ir para o público,<br> 
+					sempre com melhorias para deixá-lo o mais simples sua usabilidade. <br>
+					E assim o <strong>Gaia Services</strong> se formou.
+				</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="member">
+						<div class="pic">
+							<img src="imagem/team-1.jpg" alt="">
+						</div>
+						<h4>Brenda Alves Lopes</h4>
+						<span>Chief Executive Officer</span>
+						<div class="social">
+							<a href="https://twitter.com/ServicesGaia?lang=en">
+							<i class="fa fa-twitter"></i></a> 
+							
+							<a href="https://www.facebook.com/brenda.alves.906">
+							<i class="fa fa-facebook"></i></a> 
+							
+							<a href="https://www.instagram.com/brenda_alopes/?hl=pt-br">
+							<i class="fa fa-instagram"></i></a> 
+							
+							<a href="https://www.linkedin.com/in/brenda-alves-bb422073/">
+							<i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="member">
+						<div class="pic">
+							<img src="imagem/team-2.jpg" alt="">
+						</div>
+						<h4>Edilaine Aparecida dos Santos</h4>
+						<span>Product Manager</span>
+						<div class="social">
+							<a href="https://twitter.com/ServicesGaia?lang=en">
+							<i class="fa fa-twitter"></i></a> 
+							
+							<a href="https://www.facebook.com/dih.contato">
+							<i class="fa fa-facebook"></i></a> 
+							
+							<a href="https://www.instagram.com/dih.contato/?hl=pt-br">
+							<i class="fa fa-instagram"></i></a> 
+							
+							<a href="https://www.linkedin.com/in/gaia-services-8a1889182/">
+							<i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="member">
+						<div class="pic">
+							<img src="imagem/team-3.jpg" alt="">
+						</div>
+						<h4>José Marcelo de Oliveira Pereira</h4>
+						<span>CTO</span>
+						<div class="social">
+							<a href="https://twitter.com/ServicesGaia?lang=en"><i
+								class="fa fa-twitter"></i></a> <a
+								href="https://www.facebook.com/profile.php?id=100012601355567"><i
+								class="fa fa-facebook"></i></a> <a
+								href="https://www.instagram.com/jm_josemarcelo/"><i
+								class="fa fa-instagram"></i></a> <a
+								href="https://www.linkedin.com/in/josemarcelooliveira/"><i
+								class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+	<!-- #team --> <!--==========================
+      
+      Contact Section
+    ============================-->
+	<section id="contact">
+		<div class="container wow fadeInUp">
+			<div class="section-header">
+				<h3 class="section-title">Fale conosco</h3>
+				<p class="section-description">
+					Dúvidas sobre algum produto ou serviço do Gaia? Houve algum problema com prestador?<br>
+					Ajude o Gaia a melhorar suas práticas, produtos e serviços com a sua opinião.					
+				</p>
+			</div>
+		</div>
+
+		<!-- Uncomment below if you wan to use dynamic maps -->
+		<iframe
+			src="https://maps.google.com/maps?q=Av.%20Afonso%20Pena%2C%201901%20-%20Funcion%C3%A1rios%2C%20Belo%20Horizonte%20-%20MG%2C%2030130-171&t=&z=19&ie=UTF8&iwloc=&output=embed"
+			width="100%" height="380" frameborder="0" style="border: 0" allowfullscreen>
+		</iframe>
+
+		<div class="container wow fadeInUp mt-5">
+			<div class="row justify-content-center">
+
+				<div class="col-lg-3 col-md-4">
+
+					<div class="info">
+						<div>
+							<i class="fa fa-map-marker"></i>
+							<p>Belo Horizonte - MG</p>
+						</div>
+						<br>
+						<div>
+							<i class="fa fa-envelope"></i>
+							<p>contato@gaiaservices.com.br</p>
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="social-links">
+						<a href="https://twitter.com/ServicesGaia" class="twitter">
+							<i class="fa fa-twitter"></i></a> 
+						
+						<a href="https://www.facebook.com/gaia.serv.5" class="facebook">
+							<i class="fa fa-facebook"></i></a> 
+						
+						<a href="https://www.instagram.com/servicesgaia/?hl=pt-br" class="instagram">
+							<i class="fa fa-instagram"></i></a> 
+						
+						<a href="https://wa.me/5531973610955?text=Olá Gaia!" class="whatsapp">
+							<i class="fa fa-whatsapp"></i></a> 
+						
+						<a href="https://www.linkedin.com/in/gaia-services-8a1889182/" class="linkedin">
+							<i class="fa fa-linkedin"></i></a>
+					</div>
+
+				</div>
+
+				<div class="col-lg-5 col-md-8">
+					<div class="form">
+						<div id="sendmessage">
+							Sua mensagem foi enviada. Em breve entraremos em contato contigo. Obrigada!</div>
+						<div id="errormessage"></div>
+						
+						<form action="" method="post" role="form" class="contactForm">
+							<div class="form-group">
+								<input type="text" name="name" class="form-control" id="name"
+									placeholder="Seu Nome" data-rule="minlen:4"
+									data-msg="Escreva seu nome aqui" />
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" name="email" id="email_faleconosco"
+									placeholder="Seu Email" data-rule="email"
+									data-msg="Informe um email válido" />
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" name="subject"
+									id="subject" placeholder="Assunto" data-rule="minlen:4"
+									data-msg="Informe o assunto da mensagem" />
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" name="message" rows="5"
+									data-rule="required" data-msg="Escreva algo aqui"
+									placeholder="Mensagem"></textarea>
+								<div class="validation"></div>
+							</div>
+							<div class="text-center">
+								<button type="submit">Enviar mensagem</button>
+							</div>
+						</form>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+	<!-- #contact --> </main>
+
+	<!--==========================
+    Footer
+  ============================-->
+	<footer id="footer">
+		<div class="footer-top">
+			<div class="container"></div>
+		</div>
+
+		<div class="container">
+			<div class="copyright">
+				&copy; Copyright <strong>Regna</strong>. All Rights Reserved
+			</div>
+			<div class="credits">
+				<!--
+	          All the links in the footer should remain intact.
+	          You can delete the links only if you purchased the pro version.
+	          Licensing information: https://bootstrapmade.com/license/
+	          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
+	        -->
+				Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+			</div>
+		</div>
+	</footer>
+	<!-- #footer -->
+
+	<a href="" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+</body>
+
+<!-- #Valida Campos -->
+<script src="js/valida.js"></script>
+</html>
